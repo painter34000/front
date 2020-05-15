@@ -32,6 +32,8 @@ public class MemberInsert implements Controller {
 	      } catch (InvocationTargetException e) {
 	         e.printStackTrace();
 	      }
+	      
+	      
 	      //2.서비스 로직 처리
 	      MemberService.getInstance().memberInsert(member);
 	      //3. 결과 저장
